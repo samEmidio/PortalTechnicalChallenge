@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PortalTechnicalChallenge.Application\PortalTechnicalChallenge.Application.csproj" />
+    <ProjectReference Include="..\PortalTechnicalChallenge.Domain.Core\PortalTechnicalChallenge.Domain.Core.csproj" />
+    <ProjectReference Include="..\PortalTechnicalChallenge.Domain\PortalTechnicalChallenge.Domain.csproj" />
+    <ProjectReference Include="..\PortalTechnicalChallenge.Infra.CrossCutting.Bus\PortalTechnicalChallenge.Infra.CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\PortalTechnicalChallenge.Infra.Data\PortalTechnicalChallenge.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
